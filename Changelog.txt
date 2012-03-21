@@ -1,0 +1,20 @@
+
+
+1.2.0 (5)
+-Add description of MILD technique.
+-Add daily targets.
+-Add widget for state or switching on/off?
+-Set-up day and night mode independently?
+-Paint b/w notification icon.
+	
+1.1.0 (4)
++Background sound - "night reminder" mode.
++Random and fixed length time periods.
++Converted preferences screen.
++Updated instructions of use.
++Fixed initialization on device boot.
++Fixed issue with even on and off time.
++Supporting Android version 2.1 and higher.
+
+1.0.2 (3) 2010-12-06
++First version released on market.
