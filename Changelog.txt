@@ -1,11 +1,15 @@
 
-
 1.2.0 (5)
--Add description of MILD technique.
--Add daily targets.
--Add widget for state or switching on/off?
--Set-up day and night mode independently?
--Paint b/w notification icon.
++Support for Android 5.0+ devices.
++Revised sound selection preferences.
++Ability to select sound from SD card.
++Vibrate on/off.
++Looping on/off.
++Fade in/out on/off.
++Customization of length of sound playing.
++New built-in sounds.
++Background image added.
++Revised text for better understanding.
 	
 1.1.0 (4)
 +Background sound - "night reminder" mode.

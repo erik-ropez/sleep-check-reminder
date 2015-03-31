@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/lucid_explorer" >
+    <!-- android:id="@+id/main_background" -->
+    <TableRow>
+    	<Button
+    		android:id="@+id/aboutButton"
+     		android:text="About"
+		    android:onClick="onAboutClick"
+		    android:layout_weight="1"
+		    android:visibility="visible"/>
+    	<Button
+     		android:text="Next Tip"
+		    android:onClick="onNextTipClick"
+		    android:layout_weight="1"/>
+    </TableRow>
+	<TableRow>
+	    <View
+	    	android:layout_span="2"
+	    	android:layout_height="1dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_weight="1"
+	    	android:background="#7F7F7F"/>
+	</TableRow> 
+   	<TableRow>
+	    <TextView 
+	    	android:id="@+id/reminderSettings"
+	    	android:layout_span="2" 
+	    	android:text="Reminder set to unknown"
+		    android:gravity="center"
+		    android:layout_weight="1"
+		    android:padding="3dip"
+		    style="@android:style/TextAppearance.Small"/>
+    </TableRow>
+
+    <TableRow
+    	android:layout_weight="1">
+	    <TextView
+	    	android:id="@+id/helpText"
+	    	android:layout_span="2"
+	    	android:text="@string/about_text"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:singleLine="false"
+		    android:padding="3dip"
+		    android:scrollbars="vertical"
+		    style="@android:style/TextAppearance.Small"/>
+    </TableRow>
+
+    <TableRow>
+    	<Button
+     		android:layout_span="2"
+     		android:text="Preferences"
+     		android:layout_weight="1"
+		    android:onClick="onPreferencesClick"/>
+    </TableRow>
+</TableLayout>
