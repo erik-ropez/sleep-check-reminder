@@ -3,16 +3,15 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/lucid_explorer" >
-    <!-- android:id="@+id/main_background" -->
     <TableRow>
     	<Button
     		android:id="@+id/aboutButton"
-     		android:text="About"
+     		android:text="@string/about"
 		    android:onClick="onAboutClick"
 		    android:layout_weight="1"
 		    android:visibility="visible"/>
     	<Button
-     		android:text="Next Tip"
+     		android:text="@string/next_tip"
 		    android:onClick="onNextTipClick"
 		    android:layout_weight="1"/>
     </TableRow>
@@ -28,7 +27,7 @@
 	    <TextView 
 	    	android:id="@+id/reminderSettings"
 	    	android:layout_span="2" 
-	    	android:text="Reminder set to unknown"
+	    	android:text="@string/reminder_unknown"
 		    android:gravity="center"
 		    android:layout_weight="1"
 		    android:padding="3dip"
@@ -54,7 +53,7 @@
     <TableRow>
     	<Button
      		android:layout_span="2"
-     		android:text="Preferences"
+     		android:text="@string/preferences"
      		android:layout_weight="1"
 		    android:onClick="onPreferencesClick"/>
     </TableRow>

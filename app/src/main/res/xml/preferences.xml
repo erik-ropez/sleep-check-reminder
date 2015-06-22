@@ -4,52 +4,52 @@
 
 	<PreferenceCategory
 		android:key="timing"
-		android:title="Reminder status">
+		android:title="@string/reminder_status">
 		
 		<CheckBoxPreference
             android:key="notification_on"
-            android:title="Global status"
-            android:summaryOff="Inactive"
-            android:summaryOn="Active" />
+            android:title="@string/global_status"
+            android:summaryOff="@string/inactive"
+            android:summaryOn="@string/active" />
 		
 		<TimePickerPreference
 			android:key="start_at_timepicker"
-			android:title="Activation time"
+			android:title="@string/activation_time"
 			android:defaultValue="0:00" />
 		
 		<TimePickerPreference
 			android:key="finish_at_timepicker"
-			android:title="Calm down time"
+			android:title="@string/calm_down_time"
 			android:defaultValue="0:00" />
 	</PreferenceCategory>
 			
 	<PreferenceCategory			
 		android:key="periodicity"
-		android:title="Periodicity">
+		android:title="@string/periodicity">
 
 		<ListPreference
             android:key="repeat_mode"
-            android:title="Periodicity mode"
+            android:title="@string/periodicity_mode"
             android:entries="@array/repeat_mode_entries"
             android:entryValues="@array/repeat_mode_entry_values"
-            android:dialogTitle="Periodicity mode"
+            android:dialogTitle="@string/periodicity_mode"
             android:defaultValue="0" />
 
 		<com.hlidskialf.android.preference.SeekBarPreference
         android:key="times_per_day_slider"
-        android:title="Amount of notifications"
-        android:dialogMessage="Amount of random length periods"
+        android:title="@string/amount_of_notifications"
+        android:dialogMessage="@string/amount_of_random_length_periods"
         android:defaultValue="5"
-        android:text=" times"
+        android:text="@string/_times"
         min="1"
         android:max="30" />
                
 		<com.hlidskialf.android.preference.SeekBarPreference 
 			android:key="period_length_slider"
-	        android:title="Period length"
-	        android:dialogMessage="Fixed length of period in minutes"
+	        android:title="@string/period_length"
+	        android:dialogMessage="@string/fixed_length_of_period_in_minutes"
 	        android:defaultValue="45"
-	        android:text=" minutes"
+	        android:text="@string/_minutes"
 	        min="1"
 	        android:max="120" />
                 
@@ -57,30 +57,30 @@
 	
 	<PreferenceCategory
 		android:key="notification"
-		android:title="Notification">
+		android:title="@string/notification">
 
         <CheckBoxPreference
             android:key="vibration_on"
-            android:title="Vibration"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled" />
+            android:title="@string/vibration"
+            android:summaryOff="@string/disabled"
+            android:summaryOn="@string/enabled" />
 
 		<ListPreference
             android:key="sound_source"
-            android:title="Sound source"
+            android:title="@string/sound_source"
             android:entries="@array/sound_source_entries"
             android:entryValues="@array/sound_source_entry_values"
-            android:dialogTitle="Notification mode"
+            android:dialogTitle="@string/notification_mode"
             android:defaultValue="0" />
 
         <Preference
             android:key="system_default_sound"
-            android:title="Selected sound"
-            android:summary="Default"/>
+            android:title="@string/selected_sound"
+            android:summary="@string/default_string"/>
 
         <RingtonePreference
             android:key="alarm_sound"
-            android:title="Selected sound"
+            android:title="@string/selected_sound"
             android:ringtoneType="alarm"
             android:showSilent="false"
             android:showDefault="false"
@@ -88,19 +88,19 @@
 
         <ListPreference
             android:key="in_built_sound"
-            android:title="Selected sound"
+            android:title="@string/selected_sound"
             android:entries="@array/in_built_sound_entries"
             android:entryValues="@array/in_built_sound_entry_values"
-            android:dialogTitle="Background sound" />
+            android:dialogTitle="@string/background_sound" />
 
         <Preference
             android:key="custom_sound_picker"
-            android:title="Selected sound" />
+            android:title="@string/selected_sound" />
 
 		<com.hlidskialf.android.preference.SeekBarPreference 
 			android:key="volume_slider"
-	        android:title="Volume"
-	        android:dialogMessage="Volume"
+	        android:title="@string/volume"
+	        android:dialogMessage="@string/volume"
 	        android:defaultValue="100"
 	        android:text="%"
 	        min="1"
@@ -108,22 +108,22 @@
 
         <CheckBoxPreference
             android:key="repeat_sound_on"
-            android:title="Repeat sound"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled" />
+            android:title="@string/repeat_sound"
+            android:summaryOff="@string/disabled"
+            android:summaryOn="@string/enabled" />
 
         <CheckBoxPreference
             android:key="fade_in_out_on"
-            android:title="Fade in/out"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled" />
+            android:title="@string/fade_in_out"
+            android:summaryOff="@string/disabled"
+            android:summaryOn="@string/enabled" />
 
         <com.hlidskialf.android.preference.SeekBarPreference
             android:key="maximum_play_time"
-            android:title="Maximum play time"
-            android:dialogMessage="Maximum play time"
+            android:title="@string/maximum_play_time"
+            android:dialogMessage="@string/maximum_play_time"
             android:defaultValue="30"
-            android:text=" seconds"
+            android:text="@string/_seconds"
             min="1"
             android:max="600" />
 

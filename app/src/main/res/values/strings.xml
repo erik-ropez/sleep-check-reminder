@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="logtag">SCR</string>
     <string name="app_name">Sleep Check Reminder</string>
 	<string name="repeatMode_prompt">Repeat mode</string>
 	<string name="about_text"><![CDATA[
@@ -23,93 +22,93 @@ Using <b>random</b> length time periods prevents you from being prepared for not
 <br/>    
 <b>Fade in/out mode</b> is useful to remind you while sleeping without waking you up. Choose sound which suits you and adjust <b>volume</b> so that you don\'t wake up. You can use it also during a day to create <b>sub-conscious connection</b> between specific sound and intention.
 	]]></string>
-	<string-array name="tips">
-		<item>Perform some simple tasks that rely on basic physics and logic. As you do them, consciously ask yourself if you are awake or dreaming.</item>
-		<item>Can you hold your nose and mouth shut and still breathe?</item>
-		<item>When you jump, do you float back down?</item>
-		<item>Can you read a sentence twice without it changing?</item>
-		<item>Is your vision clearer or blurrier than normal?</item>
-		<item>Can you push your right fingers through your left hand?</item>
-		<item>Can you read a clock face or digital watch?</item>
-		<item>Can you fly, shape shift, or walk through walls?</item>
-		<item>Do light switches work properly?</item>
-		<item>Does your reflection look normal in the mirror?</item>
-		<item>What day is it and what are you doing now?</item>
-		<item>Can you add up two numbers for a correct answer?</item>
-		<item>Besides teaching people how to learn lucid dreaming, reality testing is a great way to increase your self awareness.</item> 
-		<item>You should always test your reality when you wake up, to be sure that it isn\'t a false awakening.</item>
-		<item>Perform one last check before you go to sleep, while reminding yourself to have lucid dreams tonight.</item>
-		<item>Some people who learn lucid dreaming decide to write a capital "L" for Lucid on the back of their hand, which reminds them.</item>
-		<item>Do a reality check every time you perform a certain action, like opening a door, looking at your watch, getting into a car, or walking down the stairs.</item>
-		<item>If your chosen reality check doesn\'t work while in dream, pick a new one.</item> 
-		<item>When you write, it may be illegible or irregular, and the letters may change.</item>
-		<item>Look at your self. If you have, for instance, 7 fingers on one hand, you are dreaming.</item>
-		<item>Use a computer. Do your normal startup programs run? Can you access the internet okay?</item>
-		<item>Look, use a telephone. Are all the numbers in order? Press the "call" button. Do you get the "boooo" tone?</item>
-		<item>Jump. Do you float? Do you stay in the air for an abnormal amount of time? Do you hear the "thump" sound when you land?</item>
-		<item>Throw a soft ball or something of the sort. Does it act as you would expect it to? Does it stay up or move abnormally far?</item>
-		<item>Spray something or some perfume or just smell something - does it smell as expected?</item>
-		<item>Recalling dreams also improves chances for lucid dreaming. Try to remember your dreams after you wake up.</item>
-		<item>Writing your dreams into journal improves chances for lucid dreaming. Try to remember your dreams after you wake up and write them into journal later.</item>
-        <item>Technique tends to increase overall consciousness level as it makes user more aware of moment of now.</item>
-        <item>It\'s beneficial to use different check method every time you need to, at least not same method in a row. If not, method (cause and effect) can become programmed into the brain and then gets replayed during a dream without becoming conscious.</item>
-        <item>Using random length time periods prevents you from being prepared for notification. Use fixed length time periods to follow your rhythm of sleep.</item>
-        <item>Fade in/out mode is useful to remind you while sleeping without waking you up. Choose sound which suits you and adjust <b>volume</b> so that you don\'t wake up. You can use it also during a day to create sub-conscious connection between specific sound and intention.</item>
-    </string-array>
 	
-	<string-array name="repeat_mode_entries">
-		<item>Random length periods</item>
-		<item>Fixed length periods</item>
-	</string-array>
+	<string name="tips_item_1">Perform some simple tasks that rely on basic physics and logic. As you do them, consciously ask yourself if you are awake or dreaming.</string>
+	<string name="tips_item_2">Can you hold your nose and mouth shut and still breathe?</string>
+	<string name="tips_item_3">When you jump, do you float back down?</string>
+	<string name="tips_item_4">Can you read a sentence twice without it changing?</string>
+	<string name="tips_item_5">Is your vision clearer or blurrier than normal?</string>
+	<string name="tips_item_6">Can you push your right fingers through your left hand?</string>
+	<string name="tips_item_7">Can you read a clock face or digital watch?</string>
+	<string name="tips_item_8">Can you fly, shape shift, or walk through walls?</string>
+	<string name="tips_item_9">Do light switches work properly?</string>
+	<string name="tips_item_10">Does your reflection look normal in the mirror?</string>
+	<string name="tips_item_11">What day is it and what are you doing now?</string>
+	<string name="tips_item_12">Can you add up two numbers for a correct answer?</string>
+	<string name="tips_item_13">Besides teaching people how to learn lucid dreaming, reality testing is a great way to increase your self awareness.</string> 
+	<string name="tips_item_14">You should always test your reality when you wake up, to be sure that it isn\'t a false awakening.</string>
+	<string name="tips_item_15">Perform one last check before you go to sleep, while reminding yourself to have lucid dreams tonight.</string>
+	<string name="tips_item_16">Some people who learn lucid dreaming decide to write a capital "L" for Lucid on the back of their hand, which reminds them.</string>
+	<string name="tips_item_17">Do a reality check every time you perform a certain action, like opening a door, looking at your watch, getting into a car, or walking down the stairs.</string>
+	<string name="tips_item_18">If your chosen reality check doesn\'t work while in dream, pick a new one.</string> 
+	<string name="tips_item_19">When you write, it may be illegible or irregular, and the letters may change.</string>
+	<string name="tips_item_20">Look at your self. If you have, for instance, 7 fingers on one hand, you are dreaming.</string>
+	<string name="tips_item_21">Use a computer. Do your normal startup programs run? Can you access the internet okay?</string>
+	<string name="tips_item_22">Look, use a telephone. Are all the numbers in order? Press the "call" button. Do you get the "boooo" tone?</string>
+	<string name="tips_item_23">Jump. Do you float? Do you stay in the air for an abnormal amount of time? Do you hear the "thump" sound when you land?</string>
+	<string name="tips_item_24">Throw a soft ball or something of the sort. Does it act as you would expect it to? Does it stay up or move abnormally far?</string>
+	<string name="tips_item_25">Spray something or some perfume or just smell something - does it smell as expected?</string>
+	<string name="tips_item_26">Recalling dreams also improves chances for lucid dreaming. Try to remember your dreams after you wake up.</string>
+	<string name="tips_item_27">Writing your dreams into journal improves chances for lucid dreaming. Try to remember your dreams after you wake up and write them into journal later.</string>
+    <string name="tips_item_28">Technique tends to increase overall consciousness level as it makes user more aware of moment of now.</string>
+    <string name="tips_item_29">It\'s beneficial to use different check method every time you need to, at least not same method in a row. If not, method (cause and effect) can become programmed into the brain and then gets replayed during a dream without becoming conscious.</string>
+    <string name="tips_item_30">Using random length time periods prevents you from being prepared for notification. Use fixed length time periods to follow your rhythm of sleep.</string>
+    <string name="tips_item_31">Fade in/out mode is useful to remind you while sleeping without waking you up. Choose sound which suits you and adjust volume so that you don\'t wake up. You can use it also during a day to create sub-conscious connection between specific sound and intention.</string>
+    
+	<string name="repeat_mode_entries_item_1">Random length periods</string>
+	<string name="repeat_mode_entries_item_2">Fixed length periods</string>
 
-	<string-array name="repeat_mode_entry_values">
-		<item>0</item>
-		<item>1</item>
-	</string-array>
-	
-	<string-array name="sound_source_entries">
-        <item>System default</item>
-        <item>System alarm sounds</item>
-        <item>Built-in sounds</item>
-        <item>Custom sound</item>
-	</string-array>
+	<string name="sound_source_entries_item_1">System default</string>
+    <string name="sound_source_entries_item_2">System alarm sounds</string>
+    <string name="sound_source_entries_item_3">Built-in sounds</string>
+    <string name="sound_source_entries_item_4">Custom sound</string>
 
-	<string-array name="sound_source_entry_values">
-		<item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-	
-	<string-array name="in_built_sound_entries">
-		<item>Knock at the door</item>
-		<item>Radar signal</item>
-		<item>Sonar sound</item>
-        <item>Beep 1</item>
-        <item>Beep 2</item>
-        <item>Beep 3</item>
-        <item>Beep 4</item>
-        <item>Beep 5</item>
-        <item>Beep 6</item>
-        <item>Beep 7</item>
-        <item>Busy tone</item>
-        <item>Pager beeps</item>
-    </string-array>
-
-	<string-array name="in_built_sound_entry_values">
-		<item>knock_at_the_door</item>
-		<item>radar_signal</item>
-		<item>sonar_sound</item>
-        <item>beep1</item>
-        <item>beep2</item>
-        <item>beep3</item>
-        <item>beep4</item>
-        <item>beep5</item>
-        <item>beep6</item>
-        <item>beep7</item>
-        <item>busy_tone</item>
-        <item>pager_beeps</item>
-	</string-array>
+	<string name="in_built_sound_entries_item_1">Knock at the door</string>
+	<string name="in_built_sound_entries_item_2">Radar signal</string>
+	<string name="in_built_sound_entries_item_3">Sonar sound</string>
+    <string name="in_built_sound_entries_item_4">Beep 1</string>
+    <string name="in_built_sound_entries_item_5">Beep 2</string>
+    <string name="in_built_sound_entries_item_6">Beep 3</string>
+    <string name="in_built_sound_entries_item_7">Beep 4</string>
+    <string name="in_built_sound_entries_item_8">Beep 5</string>
+    <string name="in_built_sound_entries_item_9">Beep 6</string>
+    <string name="in_built_sound_entries_item_10">Beep 7</string>
+    <string name="in_built_sound_entries_item_11">Busy tone</string>
+    <string name="in_built_sound_entries_item_12">Pager beeps</string>
 
     <string name="sound_not_selected_summary">Not selected</string>
+
+    <string name="about">About</string>
+    <string name="next_tip">Next Tip</string>
+    <string name="preferences">Preferences</string>
+    <string name="reminder_unknown">Reminder set to unknown</string>
+
+	<string name="reminder_status">Reminder status</string>
+	<string name="global_status">Global status</string>
+	<string name="default_string">Default</string>
+	<string name="active">Active</string>
+	<string name="inactive">Inactive</string>
+	<string name="enabled">Enabled</string>
+	<string name="disabled">Disabled</string>
+	<string name="activation_time">Activation time</string>
+	<string name="calm_down_time">Calm down time</string>
+	<string name="periodicity">Periodicity</string>
+	<string name="periodicity_mode">Periodicity mode</string>
+	<string name="amount_of_notifications">Amount of notifications</string>
+	<string name="amount_of_random_length_periods">Amount of random length periods</string>
+	<string name="period_length">Period length</string>
+	<string name="fixed_length_of_period_in_minutes">Fixed length of period in minutes</string>
+	<string name="notification">Notification</string>
+	<string name="vibration">Vibration</string>
+	<string name="sound_source">Sound source</string>
+	<string name="notification_mode">Notification mode</string>
+	<string name="selected_sound">Selected sound</string>
+	<string name="background_sound">Background sound</string>
+	<string name="volume">Volume</string>
+	<string name="repeat_sound">Repeat sound</string>
+	<string name="fade_in_out">Fade in/out</string>
+	<string name="maximum_play_time">Maximum play time</string>
+	<string name="_times"> times</string>
+	<string name="_minutes"> minutes</string>
+	<string name="_seconds"> seconds</string>
 </resources>

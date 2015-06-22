@@ -5,15 +5,15 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/aFileChooser" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="/media/Data/Projects/sleep-check-reminder" />
+            <option value="/media/Data/Projects/sleep-check-reminder/aFileChooser" />
+            <option value="/media/Data/Projects/sleep-check-reminder/app" />
           </set>
         </option>
       </GradleProjectSettings>
     </option>
   </component>
 </project>
-
