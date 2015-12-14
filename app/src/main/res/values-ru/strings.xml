@@ -111,4 +111,10 @@
     <string name="_times"> раз</string>
     <string name="_minutes"> минут</string>
     <string name="_seconds"> секунд</string>
+    <string name="reminding">Напоминания</string>
+    <string name="n_times_per_day" formatted="false">%d раз в день</string>
+    <string name="every_n_minutes" formatted="false">каждые %d минут</string>
+    <string name="all_day">весь день</string>
+    <string name="from_x_to_y" formatted="false">с %s до %s</string>
+    <string name="reminder_is_not_enabled">Напоминания неактивны</string>
 </resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sleep Check Reminder</string>
+	<string name="repeatMode_prompt">Modo de Repetição</string>
+	<string name="about_text"><![CDATA[
+<b>Sobre</b>
+<br/>
+<br/>
+Esse aplicativo irá ajudá-lo a construir o hábito de se lembrar de checar se está dormindo ou não.
+Tendo esse hábito, você pode se lembrar de checar a realidade enquanto estiver dormindo e descobrir se está realmente dormindo. Ao realizá-lo aumentará as chances de entrar em um <b>sonho lúcido</b>.
+<br/>
+<br/>
+A prática tende a <b>aumentar o nível geral de consciência,<b> pois faz do usuário mais consciente do agora.
+É útil usar diferentes métodos de checagem sempre que precisar checar a realidade, tente não usar o mesmo método o tempo todo. Do contrário, o método pode ser programado no seu cérebro e será camuflado durante um sonho impedindo-o de se tornar lúcido.
+<br/>
+<br/>
+A aplicação traz uma coleção com dicas sobre testes de realidade e <b>sonhos lúcidos<b> em geral, veja-os clicando no botão <b>Próxima Dica</b>.
+<br/>
+<br/>
+Usando os intervalos <b>aleatórios</b> lhe impede de estar preparado para a notificação. Use os intervalos <b>fixos</b> para seguir seu ritmo de sono.
+<br/>
+<br/> 
+<b>O modo Fade in/out</b> é útil para notificá-lo enquanto estiver dormindo sem te acordar. Escolha um som que combine com você e ajuste o <b>volume</b> para que você não acorde. Você pode usá-lo durante o dia para criar uma <b>ligação subconsciente</b> entre um som específico e um objetivo.
+	]]></string>
+	
+	<string name="tips_item_1">Realize tarefas simples que dependam das leis de física e lógica. Quando as fizer, conscientemente pergunte a si mesmo se está acordado ou dormindo.</string>
+	<string name="tips_item_2">Você consegue tapar o nariz, fechar a boca e continuar respirando?</string>
+	<string name="tips_item_3">Quando você pula, você flutua de volta para baixo?</string>
+	<string name="tips_item_4">Você consegue ler a mesma frase sem que ela mude?</string>
+	<string name="tips_item_5">Sua visão está nítida ou mais embaçada que o normal?</string>
+	<string name="tips_item_6">Você consegue passar um dedo pela sua outra mão?</string>
+	<string name="tips_item_7">Você consegue ver as horas num relógio?</string>
+	<string name="tips_item_8">Você pode voar, mudar formas ou atravessar paredes?</string>
+	<string name="tips_item_9">O interruptor de luz funciona normalmente?</string>
+	<string name="tips_item_10">Seu reflexo parece normal num espelho?</string>
+	<string name="tips_item_11">Que dia é hoje e o que você está fazendo agora?</string>
+	<string name="tips_item_12">Você consegue somar dois números e obter a resposta correta?</string>
+	<string name="tips_item_13">Além de ensinar as pessoas sobre sonhos lúcidos, os testes de realidade são uma ótima maneira de incrementar sua auto-consciência.</string> 
+	<string name="tips_item_14">Sempre que acordar faça um teste de realidade para ter certeza que não é um falso-despertar.</string>
+	<string name="tips_item_15">Realize um último teste logo antes de dormir enquanto mentaliza que terá sonhos lúcidos a noite.</string>
+	<string name="tips_item_16">Algumas pessoas que aprendem os sonhos lúcidos decidem escrever a letra "L" de Lúcido nas costas de suas mãos para lembrar-lhes.</string>
+	<string name="tips_item_17">Faça um teste de realidade sempre que realizar uma ação, como abrir portas, olhar um relógio, entrar num carro ou descer as escadas.</string>
+	<string name="tips_item_18">Se você escolheu um teste de realidade que não funciona num sonho, tente escolher outro.</string> 
+	<string name="tips_item_19">Quando você escreve, o texto pode ser ilegível ou irregular e algumas letras mudam.</string>
+	<string name="tips_item_20">Olhe para si mesmo. Se por acaso você tiver 7 dedos em uma mão, você está sonhando.</string>
+	<string name="tips_item_21">Use um computador. Você consegue abrir os programas normalmente? Você consegue acessar a internet sem dificuldades?</string>
+	<string name="tips_item_22">Use um telefone. Todos os números estão em ordem? Aperte o botão de chamar. Você ouve o sinal de chamada?</string>
+	<string name="tips_item_23">Pule. Você flutua? Você fica no ar por um tempo incomum? Você ouve o som de batida quando chega ao chão?</string>
+	<string name="tips_item_24">Jogue uma bola macia ou algo do tipo. Ela age conforme o esperado? Ela se mantém no ar ou estranhamente vai para longe?</string>
+	<string name="tips_item_25">Use um spray ou algum perfume ou simplesmente cheire algo - o cheiro é como esperado?</string>
+	<string name="tips_item_26">Recordar os sonhos também melhora as chances de ter um sonho lúcido. Tente se lembrar de seus sonhos assim que acordar.</string>
+	<string name="tips_item_27">Escrever seus sonhos em um diário melhora as chances de ter um sonho lúcido. Tente se lembrar de seus sonhos depois que você acorda e os escreva no diário mais tarde.</string>
+    <string name="tips_item_28">A prática tende a aumentar o nível geral de consciência, pois faz do usuário mais consciente do agora.</string>
+    <string name="tips_item_29">É útil usar diferentes métodos de checagem sempre que precisar checar a realidade, tente não usar o mesmo método o tempo todo. Do contrário, o método pode ser programado no seu cérebro e será camuflado durante um sonho impedindo-o de se tornar lúcido.</string>
+    <string name="tips_item_30">Usando os intervalos aleatórios lhe impede de estar preparado para a notificação. Use os intervalos fixos para seguir seu ritmo de sono.</string>
+    <string name="tips_item_31">O modo Fade in/out é útil para notificá-lo enquanto estiver dormindo sem te acordar. Escolha um som que combine com você e ajuste o volume para que você não acorde. Você pode usá-lo durante o dia para criar uma ligação subconsciente entre um som específico e um objetivo.</string>
+    
+	<string name="repeat_mode_entries_item_1">Intervalos Aleatórios</string>
+	<string name="repeat_mode_entries_item_2">Intervalos Fixos</string>
+
+	<string name="sound_source_entries_item_1">Padrão do Android</string>
+    <string name="sound_source_entries_item_2">Alarmes do Android</string>
+    <string name="sound_source_entries_item_3">Sons do Aplicativo</string>
+    <string name="sound_source_entries_item_4">Som Personalizado</string>
+
+	<string name="in_built_sound_entries_item_1">Batida na Porta</string>
+	<string name="in_built_sound_entries_item_2">Sinal de Radar</string>
+	<string name="in_built_sound_entries_item_3">Som de Sonar</string>
+    <string name="in_built_sound_entries_item_4">Beep 1</string>
+    <string name="in_built_sound_entries_item_5">Beep 2</string>
+    <string name="in_built_sound_entries_item_6">Beep 3</string>
+    <string name="in_built_sound_entries_item_7">Beep 4</string>
+    <string name="in_built_sound_entries_item_8">Beep 5</string>
+    <string name="in_built_sound_entries_item_9">Beep 6</string>
+    <string name="in_built_sound_entries_item_10">Beep 7</string>
+    <string name="in_built_sound_entries_item_11">Som de Ocupado</string>
+    <string name="in_built_sound_entries_item_12">Beep de Pager</string>
+
+    <string name="sound_not_selected_summary">Não Selecionado</string>
+
+    <string name="about">Sobre</string>
+    <string name="next_tip">Próxima Dica</string>
+    <string name="preferences">Preferências</string>
+    <string name="reminder_unknown">Reminder definido como desconhecido</string>
+
+	<string name="reminder_status">Estado do Reminder</string>
+	<string name="global_status">Estado Geral</string>
+	<string name="default_string">Padrão</string>
+	<string name="active">Ativo</string>
+	<string name="inactive">Inativo</string>
+	<string name="enabled">Habilitado</string>
+	<string name="disabled">Desabilitado</string>
+	<string name="activation_time">Hora da ativação</string>
+	<string name="calm_down_time">Hora de desativação</string>
+	<string name="periodicity">Intervalos</string>
+	<string name="periodicity_mode">Modo de intervalo</string>
+	<string name="amount_of_notifications">Quantidade de notificações</string>
+	<string name="amount_of_random_length_periods">Quantidade de intervalos aleatórios</string>
+	<string name="period_length">Tempo de Intervalo</string>
+	<string name="fixed_length_of_period_in_minutes">Tempo de intervalo fixo em minutos</string>
+	<string name="notification">Notificação</string>
+	<string name="vibration">Vibração</string>
+	<string name="sound_source">Som</string>
+	<string name="notification_mode">Modo de notificação</string>
+	<string name="selected_sound">Selecione o som</string>
+	<string name="background_sound">Som de fundo</string>
+	<string name="volume">Volume</string>
+	<string name="repeat_sound">Repetir som</string>
+	<string name="fade_in_out">Fade in/out</string>
+	<string name="maximum_play_time">Tempo máximo de reprodução</string>
+	<string name="_times"> vezes</string>
+	<string name="_minutes"> minutos</string>
+	<string name="_seconds"> segundos</string>
+	<string name="reminding">Relembrando</string>
+	<string name="n_times_per_day" formatted="false">%d vezes por dia</string>
+	<string name="every_n_minutes" formatted="false">a cada %d minutos</string>
+	<string name="all_day">dia todo</string>
+	<string name="from_x_to_y" formatted="false">entre %s e %s</string>
+	<string name="reminder_is_not_enabled">Relembrar inativo</string>
+</resources>

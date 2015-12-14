@@ -7,6 +7,7 @@ import com.ropez.android.sleepcheckreminder.AlarmConfiguration.RepeatMode;
 import com.ropez.android.sleepcheckreminder.R;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.ScrollingMovementMethod;
@@ -15,6 +16,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.TextView;
+import java.text.SimpleDateFormat;
 
 public class MainScreen extends Activity {
 	
@@ -71,9 +73,6 @@ public class MainScreen extends Activity {
     	super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        //View mainBackgroundView = findViewById(R.id.main_background);
-        //mainBackgroundView.setBackgroundResource(R.drawable.lucid_explorer);
-
         this.mHelpText = (TextView)findViewById(R.id.helpText);
         this.mHelpText.setMovementMethod(new ScrollingMovementMethod());
         this.mAboutButton = (Button)findViewById(R.id.aboutButton);
@@ -105,25 +104,25 @@ public class MainScreen extends Activity {
 	
 	private String getReminderSettings() {
 		StringBuilder builder = new StringBuilder();
-		
+
+		Resources resources = getResources();
+
 		if (this.mConfiguration.isNotificationOn) {
-			builder.append("Reminding ");
+			builder.append(resources.getString(R.string.reminding)).append(" ");
 			
 			if (this.mConfiguration.repeatMode == RepeatMode.Random)
-				builder.append(Integer.toString(this.mConfiguration.timesPerDay)).append(" times per day ");
+				builder.append(String.format(resources.getString(R.string.n_times_per_day), this.mConfiguration.timesPerDay)).append(" ");
 			if (this.mConfiguration.repeatMode == RepeatMode.Fixed)
-				builder.append("every ").append(Integer.toString(this.mConfiguration.periodLength)).append(" minutes ");
+				builder.append(String.format(resources.getString(R.string.every_n_minutes), this.mConfiguration.periodLength)).append(" ");
 
 			if (this.mConfiguration.timeFrom.getTime() == this.mConfiguration.timeTo.getTime()) {
-				builder.append("all day");
+				builder.append(resources.getString(R.string.all_day));
 			} else {
-				builder.append("from ");
-				appendTime(builder, this.mConfiguration.timeFrom);
-				builder.append(" to ");
-				appendTime(builder, this.mConfiguration.timeTo);
+                SimpleDateFormat format = new SimpleDateFormat("HH:mm");
+				builder.append(String.format(resources.getString(R.string.from_x_to_y), format.format(this.mConfiguration.timeFrom), format.format(this.mConfiguration.timeTo)));
 			}
 		} else
-			builder.append("Reminder is not enabled");
+			builder.append(resources.getString(R.string.reminder_is_not_enabled));
 		
 		return builder.toString();
 	}

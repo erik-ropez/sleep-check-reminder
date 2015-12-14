@@ -5,6 +5,7 @@ import com.hlidskialf.android.preference.SeekBarPreference;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -265,7 +266,10 @@ public class PreferenceScreen extends PreferenceActivity {
         updateDisplay();
     }
     
-	private void updateDisplay() {
+	private void updateDisplay()
+    {
+        Resources resources = getResources();
+
 		boolean notificationStatus = Boolean.parseBoolean(this.mPreferenceValues.get(this.mGlobalStatus.getKey()));
 
 		if (notificationStatus) {
@@ -277,7 +281,7 @@ public class PreferenceScreen extends PreferenceActivity {
 		}
 		
 		int notificationMode = Integer.parseInt(this.mPreferenceValues.get(this.mSoundSource.getKey()));
-		this.mSoundSource.setSummary(getResources().getStringArray(R.array.sound_source_entries)[notificationMode]);
+		this.mSoundSource.setSummary(resources.getStringArray(R.array.sound_source_entries)[notificationMode]);
 
         Preference[] soundSelectors = {
             this.mSystemDefaultSound,
@@ -309,20 +313,20 @@ public class PreferenceScreen extends PreferenceActivity {
         }
 
 		String backgroundSoundEntryValue = this.mPreferenceValues.get(this.mInBuiltSound.getKey());
-		String backgroundSoundEntry = getResources().getString(R.string.sound_not_selected_summary);
+		String backgroundSoundEntry = resources.getString(R.string.sound_not_selected_summary);
 		if (backgroundSoundEntryValue != null) {
-			String[] backgroundSoundEntryValues = getResources().getStringArray(R.array.in_built_sound_entry_values);
+			String[] backgroundSoundEntryValues = resources.getStringArray(R.array.in_built_sound_entry_values);
 			int backgroundSoundEntryIndex = -1;
 			for (int i = 0; i < backgroundSoundEntryValues.length; i++)
 				if (backgroundSoundEntryValues[i].compareTo(backgroundSoundEntryValue) == 0)
 					backgroundSoundEntryIndex = i;
 			if (backgroundSoundEntryIndex >= 0)
-				backgroundSoundEntry = getResources().getStringArray(R.array.in_built_sound_entries)[backgroundSoundEntryIndex];
+				backgroundSoundEntry = resources.getStringArray(R.array.in_built_sound_entries)[backgroundSoundEntryIndex];
 		}
 		this.mInBuiltSound.setSummary(backgroundSoundEntry);
 
         String customSoundEntryValue = this.mPreferenceValues.get(this.mCustomSound.getKey());
-        String customSoundEntry = getResources().getString(R.string.sound_not_selected_summary);
+        String customSoundEntry = resources.getString(R.string.sound_not_selected_summary);
         if (customSoundEntryValue != null) {
             Uri customSoundUri = Uri.parse(customSoundEntryValue);
             String path = FileUtils.getPath(this, customSoundUri);
@@ -334,10 +338,10 @@ public class PreferenceScreen extends PreferenceActivity {
         this.mCustomSound.setSummary(customSoundEntry);
 
 		this.mVolume.setSummary(this.mPreferenceValues.get(this.mVolume.getKey()) + "%");
-        this.mMaximumPlayTime.setSummary(this.mPreferenceValues.get(this.mMaximumPlayTime.getKey()) + " seconds");
+        this.mMaximumPlayTime.setSummary(this.mPreferenceValues.get(this.mMaximumPlayTime.getKey()) + resources.getString(R.string._seconds));
 
 		String alarmUriString = this.mPreferenceValues.get(this.mAlarmSound.getKey());
-		String alarmTitle = getResources().getString(R.string.sound_not_selected_summary);
+		String alarmTitle = resources.getString(R.string.sound_not_selected_summary);
 		if (alarmUriString != null) {
 			Uri alarmUri = Uri.parse(this.mPreferenceValues.get(this.mAlarmSound.getKey()));
 			alarmTitle = RingtoneManager.getRingtone(this, alarmUri).getTitle(this);
@@ -346,9 +350,9 @@ public class PreferenceScreen extends PreferenceActivity {
 		
 		int repeatMode = Integer.parseInt(this.mPreferenceValues.get(this.mRepeatMode.getKey()));
 		
-		this.mRepeatMode.setSummary(getResources().getStringArray(R.array.repeat_mode_entries)[repeatMode]);
-		this.mTimesPerDay.setSummary(this.mPreferenceValues.get(this.mTimesPerDay.getKey()) + " times");
-		this.mPeriodLength.setSummary(this.mPreferenceValues.get(this.mPeriodLength.getKey()) + " minutes");
+		this.mRepeatMode.setSummary(resources.getStringArray(R.array.repeat_mode_entries)[repeatMode]);
+		this.mTimesPerDay.setSummary(this.mPreferenceValues.get(this.mTimesPerDay.getKey()) + resources.getString(R.string._times));
+		this.mPeriodLength.setSummary(this.mPreferenceValues.get(this.mPeriodLength.getKey()) + resources.getString(R.string._minutes));
 		this.mStartAt.setSummary(this.mPreferenceValues.get(this.mStartAt.getKey()));
 		this.mFinishAt.setSummary(this.mPreferenceValues.get(this.mFinishAt.getKey()));
 

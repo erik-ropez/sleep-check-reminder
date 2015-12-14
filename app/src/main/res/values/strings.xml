@@ -111,4 +111,10 @@ Using <b>random</b> length time periods prevents you from being prepared for not
 	<string name="_times"> times</string>
 	<string name="_minutes"> minutes</string>
 	<string name="_seconds"> seconds</string>
+	<string name="reminding">Reminding</string>
+	<string name="n_times_per_day" formatted="false">%d times per day</string>
+	<string name="every_n_minutes" formatted="false">every %d minutes</string>
+	<string name="all_day">all day</string>
+	<string name="from_x_to_y" formatted="false">from %s to %s</string>
+	<string name="reminder_is_not_enabled">Reminder is not enabled</string>
 </resources>
